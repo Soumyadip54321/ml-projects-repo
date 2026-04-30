@@ -1,4 +1,4 @@
-📊 ML Projects Repository
+<h2> 📊 ML PROJECTS REPO </h2>
 
 A collection of end-to-end machine learning projects covering problem formulation, data preprocessing, model building, evaluation, and deployment.
 
