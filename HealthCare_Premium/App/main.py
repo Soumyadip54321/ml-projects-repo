@@ -4,7 +4,7 @@ Script that runs UI to feed inputs to backend ML models toward Healthcare Premiu
 
 import streamlit as st
 # run from project root - Healthcare_Premium. Python then treats it as root and App within it as a package.
-from App.Prediction_helper import predict
+from Prediction_helper import predict
 
 # setup title
 st.title(':red[Healthcare] Premium Predictions')

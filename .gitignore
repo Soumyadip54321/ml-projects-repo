@@ -2,3 +2,6 @@
 .idea/
 Datasets/
 .DS_Store
+HealthCare_Premium/.jovianrc
+HealthCare_Premium/.ipynb_checkpoints/
+HealthCare_Premium/App/__pycache__/

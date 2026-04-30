@@ -16,6 +16,7 @@ This repository contains practical machine learning implementations with a focus
     │   └── End-to-end ML project for healthcare premium prediction
     │
     └── .gitignore
+    └──  requirements.txt
 
 🧠 Projects
 

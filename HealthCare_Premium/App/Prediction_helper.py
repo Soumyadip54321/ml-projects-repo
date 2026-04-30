@@ -8,7 +8,7 @@ from joblib import load
 import os
 # run from project root - Healthcare_Premium. Python then treats it as root and App within it as a package.
 # This path ensures model picks up the right transformer used for target encoding the train set
-from App.encoders import oof_cv_target_encoder
+from encoders import oof_cv_target_encoder
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 model_path_rest = os.path.join(BASE_DIR, "Artifacts", "bestmodel_fullpipeline_rest.joblib")
