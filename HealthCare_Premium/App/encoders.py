@@ -3,19 +3,7 @@ Script that stores all the preprocessing functions.
 '''
 
 import pandas as pd
-import numpy as np
-import seaborn as sns
-import matplotlib.pyplot as plt
-from sklearn.model_selection import StratifiedKFold, train_test_split, RandomizedSearchCV, KFold
-from sklearn.pipeline import make_pipeline
-from sklearn.preprocessing import OneHotEncoder, OrdinalEncoder, StandardScaler
-from sklearn.compose import make_column_selector, make_column_transformer
-from sklearn.linear_model import LinearRegression
-from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
-from xgboost import XGBRegressor
-import optuna
-from sklearn.base import clone
-from sklearn.metrics import root_mean_squared_error, r2_score
+from sklearn.model_selection import KFold
 from sklearn.base import BaseEstimator, TransformerMixin
 
 
